@@ -34,10 +34,15 @@ dataset_path: Path to your dataset directory
 Optional Training:
 
 --epochs: Number of training epochs (default: 30)
+
 --batch-size: Batch size (default: 256)
+
 --lr: Initial learning rate (default: 0.01)
+
 --optim: Optimizer [SGD, Adam] (default: SGD)
+
 --patience: Early stopping patience (default: 25)
+
 --min-delta: Minimum improvement threshold (default: 0.0005)
 
 
