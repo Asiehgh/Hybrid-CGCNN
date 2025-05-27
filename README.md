@@ -3,7 +3,9 @@ CGCNN-Plus: Enhanced Crystal Graph Convolutional Neural Network
 A hybrid machine learning framework that combines crystal graph representations with molecular-level descriptors for improved materials property prediction. Built upon the original CGCNN architecture with significant enhancements for training stability and predictive performance.
 
 
+
 Installation:
+
 conda create -n cgcnn-plus python=3.8+
 
 conda activate cgcnn-plus
@@ -11,6 +13,7 @@ conda activate cgcnn-plus
 conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
 
 pip install pymatgen scikit-learn numpy
+
 
 
 
@@ -27,7 +30,8 @@ dataset_path: Path to your dataset directory
 --feature-file: Path to molecular descriptors CSV file
 
 
-Optional Training
+
+Optional Training:
 
 --epochs: Number of training epochs (default: 30)
 --batch-size: Batch size (default: 256)
@@ -37,7 +41,8 @@ Optional Training
 --min-delta: Minimum improvement threshold (default: 0.0005)
 
 
-Advanced Options
+
+Advanced Options:
 
 --use-plateau-scheduler: Use ReduceLROnPlateau instead of MultiStepLR
 
@@ -48,7 +53,8 @@ Advanced Options
 --stability-check-window: Window for stability monitoring (default: 5)
 
 
-Model Architecture
+
+Model Architecture:
 
 --atom-fea-len: Atom feature length (default: 64)
 
