@@ -2,6 +2,8 @@ CGCNN-Plus: Enhanced Crystal Graph Convolutional Neural Network
 
 A hybrid machine learning framework that combines crystal graph representations with molecular-level descriptors for improved materials property prediction. Built upon the original CGCNN architecture with significant enhancements for training stability and predictive performance.
 
+
+Installation:
 conda create -n cgcnn-plus python=3.8+
 conda activate cgcnn-plus
 conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
