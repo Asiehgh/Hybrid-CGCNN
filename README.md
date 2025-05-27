@@ -5,8 +5,11 @@ A hybrid machine learning framework that combines crystal graph representations 
 
 Installation:
 conda create -n cgcnn-plus python=3.8+
+
 conda activate cgcnn-plus
+
 conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
+
 pip install pymatgen scikit-learn numpy
 
 
